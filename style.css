@@ -1,0 +1,109 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.line {
+  border: 1px solid black;
+  height: 0;
+  width: 100%;
+  margin: 20px;
+}
+
+.all {
+  display: flex;
+  height: 100vh;
+}
+.all .user {
+  width: 30vw;
+  background-color: #f3f3f3;
+  position: static;
+  height: 100vh;
+}
+.all .user .view {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.all .user .view img {
+  border-radius: 50%;
+  margin: 20px;
+  margin-bottom: 0;
+  box-shadow: 0 0 100px black;
+}
+.all .user .links {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.all .user .links .link {
+  padding: 5px 0;
+}
+.all .user .skills .title {
+  padding: 0 20px;
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+}
+.all .user .skills .skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+.all .user .skills .skill:hover {
+  background-color: #b9b9b9;
+}
+.all .user .skills .skill .stars {
+  display: flex;
+  margin-left: 10px;
+}
+.all .user .skills .skill .stars .star {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.25rem;
+  background-color: #494949;
+}
+.all .user .skills .skill .stars .star:first-of-type {
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.all .user .skills .skill .stars .star:last-of-type {
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.all .user .skills .skill .stars .star.not {
+  background-color: #8f8f8f;
+}
+.all .content {
+  padding: 20px;
+  position: static;
+  width: 70vw;
+  height: calc(100vh - 40px);
+  overflow-y: auto;
+}
+.all .content .h1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 1.5rem;
+}
+.all .content .h1 b {
+  width: 30%;
+}
+.all .content .source {
+  display: flex;
+  flex-direction: row;
+}
+.all .content .source .name {
+  width: 30%;
+}
+.all .content .source .sources {
+  width: 70%;
+}
+.all .content .source .sources .font-name {
+  font-size: 1.5rem;
+}
