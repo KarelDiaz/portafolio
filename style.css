@@ -31,6 +31,9 @@ html {
 }
 .all .user .view img {
   width: 150px;
+  height: 150px;
+  max-width: 150px;
+  max-height: 150px;
   border-radius: 50%;
   margin: 20px;
   margin-bottom: 0;
