@@ -30,6 +30,7 @@ html {
   align-items: center;
 }
 .all .user .view img {
+  width: 150px;
   border-radius: 50%;
   margin: 20px;
   margin-bottom: 0;
