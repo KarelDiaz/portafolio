@@ -71,6 +71,14 @@ html {
 .all .user .links .link {
   padding: 5px 0;
 }
+.all .user .links .langs-container {
+  display: flex;
+}
+.all .user .links .langs-container .langs {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+}
 .all .user .skills {
   padding-bottom: 20px;
 }

@@ -79,10 +79,22 @@ html {
             .link {
                 padding: 5px 0;
             }
+
+            .langs-container {
+                display: flex;
+
+                .langs {
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 5px;
+                }
+            }
+
         }
 
         .skills {
             padding-bottom: 20px;
+
             .title {
                 padding: 0 20px;
                 padding-bottom: 20px;
@@ -91,6 +103,7 @@ html {
 
             .skills-content {
                 overflow-y: auto;
+
                 @media screen and (max-width: 899px) {
                     & {
                         height: unset;
