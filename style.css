@@ -15,12 +15,27 @@ html {
   display: flex;
   height: 100vh;
 }
+@media screen and (max-width: 899px) {
+  .all {
+    height: unset;
+    flex-direction: column;
+  }
+}
 .all .user {
-  width: 30vw;
-  background-color: #f3f3f3;
+  top: 0;
+  left: 0;
   position: static;
   height: 100vh;
+  width: 30vw;
   box-shadow: 0 0 50px #59a6be;
+  overflow-y: auto;
+}
+@media screen and (max-width: 899px) {
+  .all .user {
+    position: unset;
+    height: unset;
+    width: unset;
+  }
 }
 .all .user .view {
   width: 100%;
@@ -40,6 +55,14 @@ html {
   margin-bottom: 0;
   box-shadow: 0 0 80px #59a6be;
 }
+.all .user .view h1 {
+  margin-bottom: 0;
+}
+@media screen and (max-width: 899px) {
+  .all .user .view h1 {
+    font-size: x-large;
+  }
+}
 .all .user .links {
   padding: 20px;
   display: flex;
@@ -48,6 +71,9 @@ html {
 .all .user .links .link {
   padding: 5px 0;
 }
+.all .user .skills {
+  padding-bottom: 20px;
+}
 .all .user .skills .title {
   padding: 0 20px;
   padding-bottom: 20px;
@@ -55,7 +81,12 @@ html {
 }
 .all .user .skills .skills-content {
   overflow-y: auto;
-  height: 200px;
+}
+@media screen and (max-width: 899px) {
+  .all .user .skills .skills-content {
+    height: unset;
+    padding-bottom: 20px;
+  }
 }
 .all .user .skills .skills-content .skill {
   display: flex;
@@ -92,10 +123,15 @@ html {
 }
 .all .content {
   padding: 20px;
-  position: static;
   width: 70vw;
-  height: calc(100vh - 40px);
   overflow-y: auto;
+}
+@media screen and (max-width: 899px) {
+  .all .content {
+    position: unset;
+    width: unset;
+    height: unset;
+  }
 }
 .all .content .h1 {
   display: flex;
