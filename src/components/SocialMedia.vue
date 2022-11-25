@@ -6,7 +6,7 @@
       :key="social.name"
       :href="social.link"
     >
-      <img class="w-6 sm:w-8 opacity-70" :src="`${social.icon}.png`" />
+      <img class="w-6 sm:w-8 opacity-70" :src="require(`../assets/${social.icon}.png`)" />
     </a>
   </div>
 </template>
