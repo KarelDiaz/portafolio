@@ -9,20 +9,10 @@ const data = {
       icon: 'telegram',
       link: 'https://t.me/+5353737330',
     },
-    // {
-    //   name: 'Twitter',
-    //   icon: 'twitter',
-    //   link: 'https://twitter.com/KarelDiazA',
-    // },
-    // {
-    //   name: 'LinkedIn',
-    //   icon: 'linkedin',
-    //   link: 'https://linkedin.com/KarelDiaz',
-    // },
     {
       name: 'GitHub',
       icon: 'github',
-      link: 'https://github.com/KarelDiaz',
+      link: 'https://github.com/raymondabreu ',
     },
   ],
   histories: [
