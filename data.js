@@ -38,12 +38,102 @@ const data = {
     {
       name: 'Work',
       contents: [
-        // Dibaq
+      // La Marquesa
+      {
+        name: 'Burger King Promo',
+        name2: 'Burger King',
+        dateStart: '20-06-2023',
+        dateEnd: 'current',
+        description: '',
+        events: [],
+        role: 'Frontend Developer',
+        team: '2 Developers',
+        tasks: ['Frontend development'],
+        technologies: ['Vue'],
+        links: [],
+      },
+        // La Marquesa
+        {
+          name: 'La Marquesa',
+          name2: 'La Marquesa',
+          dateStart: '1-06-2023',
+          dateEnd: '15-06-2023',
+          description: '',
+          events: [],
+          role: 'Frontend Developer',
+          team: '2 Developers',
+          tasks: ['Mockup'],
+          technologies: ['HTML'],
+          links: [],
+        },
+        // Altas Clientes
+        {
+          name: 'Altas Clientes',
+          name2: 'Replus',
+          dateStart: '3-05-2023',
+          dateEnd: '31-05-2023',
+          description: 'Replus data manager.',
+          events: [],
+          role: 'Frontend Developer',
+          team: '3 Developers',
+          tasks: ['Frontend development'],
+          technologies: ['Vue'],
+          links: [
+            {
+              title: 'Replus.es',
+              link: 'https://replus.es/'
+            }
+          ],
+        },
+
+        // Line emails
+        {
+          name: 'Line mailing',
+          name2: 'Line',
+          dateStart: '20-03-2023',
+          dateEnd: '20-06-2023',
+          description: '',
+          events: [],
+          role: 'Frontend Developer',
+          team: '1 Developers',
+          tasks: ['Mailing development'],
+          technologies: ['HTML'],
+          links: [],
+        },
+        // Laufen
+        {
+          name: 'Laufen',
+          name2: 'Laufen',
+          dateStart: '13-03-2023',
+          dateEnd: '17-02-2023',
+          description: '3D gallery.',
+          events: [],
+          role: 'Frontend Developer',
+          team: '3 Developers',
+          tasks: ['Frontend development'],
+          technologies: ['React'],
+          links: [],
+        },
+        // CurioLife
+        {
+          name: 'CurioLife',
+          name2: 'Informage Studio',
+          dateStart: '10-01-2023',
+          dateEnd: '7-04-2023',
+          description: 'Animal encyclopedia.',
+          events: [],
+          role: 'Frontend Developer',
+          team: '3 Developers',
+          tasks: ['Frontend development'],
+          technologies: ['Vue'],
+          links: [],
+        },
+        // Visor Mercantil
         {
           name: 'Visor Mercantil',
           name2: 'Undanet',
           dateStart: '27-09-2022',
-          dateEnd: 'current',
+          dateEnd: '25-12-2022',
           description: 'Undanet data manager.',
           events: [],
           role: 'Frontend Developer',
@@ -62,7 +152,7 @@ const data = {
           events: [],
           role: 'Frontend Developer',
           team: '1 Developers',
-          tasks: ['Mackup'],
+          tasks: ['Mockup'],
           technologies: ['HTML', 'CSS', 'JavaScript'],
           links: [],
         },
@@ -76,7 +166,7 @@ const data = {
           events: [],
           role: 'Frontend Developer',
           team: '1 Developers',
-          tasks: ['Mackup'],
+          tasks: ['Mockup'],
           technologies: ['React'],
           links: [],
         },
@@ -90,7 +180,7 @@ const data = {
           events: [],
           role: 'Frontend Developer',
           team: '2 Developers',
-          tasks: ['Mackup'],
+          tasks: ['Mockup'],
           technologies: ['Vue'],
           links: [],
         },
@@ -104,7 +194,7 @@ const data = {
           events: [],
           role: 'Frontend Developer',
           team: '2 Developers',
-          tasks: ['Mackup'],
+          tasks: ['Mockup'],
           technologies: ['Canvas'],
           links: [],
         },
@@ -118,7 +208,7 @@ const data = {
           events: [],
           role: 'Frontend Developer',
           team: '3 Developers',
-          tasks: ['Mackup'],
+          tasks: ['Mockup'],
           technologies: ['React'],
           links: [
             {
