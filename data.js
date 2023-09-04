@@ -38,20 +38,34 @@ const data = {
     {
       name: 'Work',
       contents: [
-      // La Marquesa
-      {
-        name: 'Burger King Promo',
-        name2: 'Burger King',
-        dateStart: '20-06-2023',
-        dateEnd: 'current',
-        description: '',
-        events: [],
-        role: 'Frontend Developer',
-        team: '2 Developers',
-        tasks: ['Frontend development'],
-        technologies: ['Vue'],
-        links: [],
-      },
+        // La Marquesa
+        {
+          name: 'Normomar',
+          name2: 'Normomar',
+          dateStart: '30-07-2023',
+          dateEnd: 'current',
+          description: '',
+          events: [],
+          role: 'Frontend Developer',
+          team: '2 Developers',
+          tasks: ['Frontend development'],
+          technologies: ['Vue'],
+          links: [],
+        },
+        // La burger king
+        {
+          name: 'Burger King Promo',
+          name2: 'Burger King',
+          dateStart: '20-06-2023',
+          dateEnd: '30-07-2023',
+          description: '',
+          events: [],
+          role: 'Frontend Developer',
+          team: '2 Developers',
+          tasks: ['Frontend development'],
+          technologies: ['Vue'],
+          links: [],
+        },
         // La Marquesa
         {
           name: 'La Marquesa',
