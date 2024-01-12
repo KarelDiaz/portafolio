@@ -291,16 +291,21 @@ const data = {
         // Blackjack
         {
           name: 'Blackjack',
-          name2: 'Informage Studio',
+          name2: 'String Gaming',
           dateStart: '01-05-2022',
           dateEnd: '30-05-2022',
-          description: 'Bet roulette.',
+          description: 'Black Jack online bet game.',
           events: [],
           role: 'Frontend Developer',
           team: '1 Developers',
           tasks: ['Bet blackjack cliente.'],
           technologies: ['Vue'],
-          links: [],
+          links: [
+            {
+              title: 'You can find it here (Sprint Gaming)',
+              link:'https://winss.bet/product/games-general/casino/bc'
+            }
+          ],
         },
         // KloutFood Web Corporativa
         {
@@ -319,7 +324,7 @@ const data = {
         // Superruleta
         {
           name: 'Superruleta',
-          name2: 'Informage Studio',
+          name2: 'Sprint Gaming',
           dateStart: '20-02-2022',
           dateEnd: '06-05-2022',
           description: 'Bet roulette.',
