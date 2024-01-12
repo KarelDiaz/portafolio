@@ -78,7 +78,12 @@ const data = {
           team: '2 Developers',
           tasks: ['Frontend development'],
           technologies: ['Vue'],
-          links: [],
+          links: [
+            {
+              title: 'You can find it here',
+              link: 'https://normomar.dev-ysl.com'
+            }
+          ],
         },
         // La burger king
         {
@@ -106,7 +111,12 @@ const data = {
           team: '2 Developers',
           tasks: ['Mockup'],
           technologies: ['HTML'],
-          links: [],
+          links: [
+            {
+              title: 'You can find it here',
+              link: 'https://lamarquesastyle.es'
+            }
+          ],
         },
         // Altas Clientes
         {
@@ -122,12 +132,11 @@ const data = {
           technologies: ['Vue'],
           links: [
             {
-              title: 'Replus.es',
+              title: 'You can find it here',
               link: 'https://replus.es/'
             }
           ],
         },
-
         // Line emails
         {
           name: 'Line mailing',
@@ -196,7 +205,12 @@ const data = {
           team: '1 Developers',
           tasks: ['Mockup'],
           technologies: ['HTML', 'CSS', 'JavaScript'],
-          links: [],
+          links: [
+            {
+              title: 'You can find it here',
+              link: 'https://dibaqpetcare.com',
+            }
+          ],
         },
         // iNuba
         {
@@ -210,7 +224,12 @@ const data = {
           team: '1 Developers',
           tasks: ['Mockup'],
           technologies: ['React'],
-          links: [],
+          links: [
+            {
+              title: 'You can find it here',
+              link: 'https://inuba.com/en/business-software/wellness/',
+            }
+          ],
         },
         // ALD Automitive
         {
@@ -224,7 +243,12 @@ const data = {
           team: '2 Developers',
           tasks: ['Mockup'],
           technologies: ['Vue'],
-          links: [],
+          links: [
+            {
+              title: 'You can find it here',
+              link: 'https://ofertas-renting.aldautomotive.es',
+            }
+          ],
         },
         // Alhambra filtro
         {
@@ -238,7 +262,12 @@ const data = {
           team: '2 Developers',
           tasks: ['Mockup'],
           technologies: ['Canvas'],
-          links: [],
+          links: [
+            {
+              title: 'You can find it here',
+              link: 'https://www.cervezasalhambra.com/it/filtro-fotografico',
+            }
+          ],
         },
         // ETPay
         {
@@ -313,7 +342,12 @@ const data = {
           team: '1 Developers',
           tasks: ['Mockup'],
           technologies: ['Html', 'Css', 'JavaScript'],
-          links: [],
+          links: [
+            {
+              title: 'You can find it here',
+              link: 'https://ta-tung.com'
+            }
+          ],
         },
         // KloutFood
         {
@@ -355,7 +389,12 @@ const data = {
           team: '3 Developers',
           tasks: ['Frontend'],
           technologies: ['Laravel', 'Vue', 'Tailwind'],
-          links: [],
+          links: [
+            {
+              title: 'You can find it here',
+              link: 'https://influencer-advisor.com',
+            },
+          ],
         },
         // Colaboracion Ciudadana
         {
@@ -372,7 +411,7 @@ const data = {
           technologies: ['Angular', 'Ionic'],
           links: [
             {
-              title: 'Sadeco here',
+              title: 'You can find it here',
               link: 'https://www.sadeco.es/',
             },
           ],
