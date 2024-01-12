@@ -38,12 +38,40 @@ const data = {
     {
       name: 'Work',
       contents: [
-        // La Marquesa
+        // AppPresupuestos
+        {
+          name: 'Presupuestos',
+          name2: '',
+          dateStart: '01-12-2023',
+          dateEnd: 'current',
+          description: '',
+          events: [],
+          role: 'Frontend Developer',
+          team: '3 Developers',
+          tasks: ['Frontend development'],
+          technologies: ['Vue'],
+          links: [],
+        },
+        // kursaal
+        {
+          name: 'Kursaal',
+          name2: 'Kursaal',
+          dateStart: '01-12-2023',
+          dateEnd: 'current',
+          description: '',
+          events: [],
+          role: 'Frontend Developer',
+          team: '2 Developers',
+          tasks: ['Frontend development'],
+          technologies: ['PHP'],
+          links: [],
+        },
+        // Normomar
         {
           name: 'Normomar',
           name2: 'Normomar',
           dateStart: '30-07-2023',
-          dateEnd: 'current',
+          dateEnd: '30-11-2023',
           description: '',
           events: [],
           role: 'Frontend Developer',
