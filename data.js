@@ -310,7 +310,7 @@ const data = {
         // KloutFood Web Corporativa
         {
           name: 'KloutFood Web Corporativa',
-          name2: 'Informage Studio',
+          name2: 'KloutFood',
           dateStart: '01-04-2021',
           dateEnd: '30-04-2022',
           description: 'A web site to show info about Klout Food.',
@@ -319,7 +319,12 @@ const data = {
           team: '1 Developers',
           tasks: ['Mockup'],
           technologies: ['Html', 'Css', 'JavaScript', 'Php'],
-          links: [],
+          links: [
+            {
+              title: 'You can find it here',
+              link: 'https://www.kloutfood.com/es/'
+            }
+          ],
         },
         // Superruleta
         {
@@ -357,7 +362,7 @@ const data = {
         // KloutFood
         {
           name: 'KloutFood',
-          name2: 'Informage Studio',
+          name2: 'KloutFood',
           dateStart: '15-12-2021',
           dateEnd: '2-02-2022',
           description: 'A web site to manage your diet.',
@@ -366,7 +371,12 @@ const data = {
           team: '1 Developers',
           tasks: ['Mockup'],
           technologies: ['Html', 'Css', 'JavaScript', 'Php'],
-          links: [],
+          links: [
+            {
+              title: 'You can find it here',
+              link: 'https://www.kloutfood.com/es/'
+            }
+          ],
         },
         // Bolsa de Traspaso
         {
