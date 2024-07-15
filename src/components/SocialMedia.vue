@@ -5,6 +5,7 @@
       v-for="social in socialMedias"
       :key="social.name"
       :href="social.link"
+      target="_blank"
     >
       <img class="w-6 sm:w-8 opacity-70" :src="require(`../assets/${social.icon}.png`)" />
     </a>

@@ -1,8 +1,14 @@
 /* eslint-disable prettier/prettier */
 const data = {
   name: 'Karel Díaz Alfonso',
-  phone: '+5354653411',
+  email: 'kdiazalfonso94@gmail.com',
+  phone: '+593962853910',
   socialMedias: [
+    {
+      name: 'WhatsApp',
+      icon: 'whatsapp',
+      link: 'https://wa.me/593962853910',
+    },
     {
       name: 'Telegram',
       icon: 'telegram',

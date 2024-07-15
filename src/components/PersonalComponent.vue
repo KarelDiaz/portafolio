@@ -8,9 +8,15 @@
     <div
       class="absolute top-0 left-0 flex flex-col h-full p-3 font-extralight filter drop-shadow-md"
     >
-      <span class="pb-1 text-xl font-bold sm:text-2xl pr-28">{{ info.name }}</span>
-      <link-component href="mailto:kdiazalfonso94@gmail.com">kdiazalfonso94@gmail.com</link-component>
-      <link-component href="tel:+5354653411">+5354653411</link-component>
+      <span class="pb-1 text-xl font-bold sm:text-2xl pr-28">
+        {{ info.name }}
+      </span>
+      <link-component :href="`mailto:${info.email}`">
+        {{ info.email }}
+      </link-component>
+      <link-component :href="`tel:${info.phone}`">
+        {{ info.phone }}
+      </link-component>
     </div>
     <!-- Image -->
     <img
@@ -18,7 +24,10 @@
       src="../assets/photo-small.png"
     />
     <!-- Social medias -->
-    <social-media class="absolute z-50 right-24 -bottom-5" :socialMedias="info.socialMedias" />
+    <social-media
+      class="absolute z-50 right-24 -bottom-5"
+      :socialMedias="info.socialMedias"
+    />
   </div>
 </template>
 
