@@ -25,25 +25,58 @@ const data = {
     },
   ],
   skillsFrontend: [
-    { tecName: 'Vue', stars: 5 },
-    { tecName: 'Angular', stars: 4 },
-    { tecName: 'Tailwind', stars: 5 },
-  ],
-  skillsBackend: [
-    { tecName: 'Express', stars: 5 },
-    { tecName: 'Strapi', stars: 5 },
+    { tecName: 'Nuxt', stars: 10 },
+    { tecName: 'Quasar', stars: 10 },
+    { tecName: 'Next', stars: 9 },
+    { tecName: 'Angular', stars: 8 },
+    { tecName: 'Tailwind', stars: 10 },
+    { tecName: 'CSS', stars: 10 },
+    { tecName: 'Git', stars: 10 },
   ],
   histories: [
     // Work
     {
       name: 'Work',
       contents: [
+        // BetConnection
+        {
+          name: 'Bet Platform',
+          name2: 'BetConnections',
+          dateStart: '02-28-2024',
+          dateEnd: 'current',
+          description: '',
+          events: [],
+          role: 'Frontend Developer',
+          team: '15 Developers',
+          tasks: ['Frontend development'],
+          technologies: ['Vue'],
+          links: [
+            {
+              title: 'You can find it here',
+              link: 'https://www.betconnections.com/'
+            }
+          ],
+        },
+        // Extranet
+        {
+          name: 'Extranet',
+          name2: '',
+          dateStart: '01-02-2024',
+          dateEnd: '26-03-2024',
+          description: '',
+          events: [],
+          role: 'Frontend Developer',
+          team: '1 Developers',
+          tasks: ['Frontend development'],
+          technologies: ['Vue'],
+          links: [],
+        },
         // AppPresupuestos
         {
           name: 'Presupuestos',
           name2: '',
           dateStart: '01-12-2023',
-          dateEnd: 'current',
+          dateEnd: '10-02-2024',
           description: '',
           events: [],
           role: 'Frontend Developer',
@@ -57,14 +90,19 @@ const data = {
           name: 'Kursaal',
           name2: 'Kursaal',
           dateStart: '01-12-2023',
-          dateEnd: 'current',
+          dateEnd: '20-01-2024',
           description: '',
           events: [],
           role: 'Frontend Developer',
           team: '2 Developers',
           tasks: ['Frontend development'],
           technologies: ['PHP'],
-          links: [],
+          links: [
+            {
+              title: 'You can find it here',
+              link: 'https://www.kursaal.cat/'
+            }
+          ],
         },
         // Normomar
         {
@@ -81,7 +119,7 @@ const data = {
           links: [
             {
               title: 'You can find it here',
-              link: 'https://normomar.dev-ysl.com'
+              link: 'https://www.normomar.es/'
             }
           ],
         },
@@ -303,7 +341,7 @@ const data = {
           links: [
             {
               title: 'You can find it here (Sprint Gaming)',
-              link:'https://winss.bet/product/games-general/casino/bc'
+              link: 'https://winss.bet/product/games-general/casino/bc'
             }
           ],
         },

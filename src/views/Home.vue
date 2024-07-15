@@ -24,26 +24,15 @@
             class="pl-3"
             :history="{ name: 'Skils', content: '' }"
           />
-          <div class="flex flex-col gap-3 ">
+          <div class="flex flex-col gap-3 pl-10">
             <skil
               class="pl-3"
-              :skil="{ name: 'JavaScript', stars: 10 }"
-            />
-            <skil
-              class="pl-3"
-              :skil="{ name: 'Java', stars: 9 }"
-            />
-            <skil
-              class="pl-3"
-              :skil="{ name: 'C#', stars: 8 }"
-            />
-            <skil
-              class="pl-3"
-              :skil="{ name: 'C++', stars: 8 }"
+              v-for="item in info.skillsFrontend" :key="item.tecName"
+              :skil="{ name: item.tecName, stars: item.stars }"
             />
           </div>
           <history
-            class="pl-3"
+            class="pl-10"
             v-for="history in info.histories"
             :key="history.name"
             :history="history"
